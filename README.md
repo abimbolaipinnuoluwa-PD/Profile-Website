@@ -46,3 +46,4 @@ This project is licensed under the NextGen SeamFix License. See the LICENSE file
 ## Acknowledgements
 
 - Thanks to the NextGen SeamFix team for their guidance and support throughout the project.
+
