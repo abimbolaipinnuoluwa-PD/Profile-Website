@@ -44,7 +44,24 @@ form{
     list-style-type: disc;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h5, h6 {
+    text-align: center;
+    font-family: Garamond,Georgia, 'Times New Roman', 'Arial-Black', 'Gadget', Times, serif, Helvetica, sans-serif;
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+
+}
+
+h3 {
+    text-align: left;
+    font-family: Garamond,Georgia, 'Times New Roman', 'Arial-Black', 'Gadget', Times, serif, Helvetica, sans-serif;
+    margin: 60px;
+    margin-top: 5.75rem;
+    margin-bottom: 100;
+    
+} 
+
+h4 {
     text-align: center;
     font-family: Garamond,Georgia, 'Times New Roman', 'Arial-Black', 'Gadget', Times, serif, Helvetica, sans-serif;
     margin-top: 0.75rem;
@@ -89,12 +106,13 @@ a{
     display: flex;
     text-decoration-style: none; color: yellow;
     justify-content: justify;
+    margin: 6%;
 }
 
 input {
     max-width: 600px;
-    width: 20%;
-    padding: 10px;
+    width: 10%;
+    padding: 5px;
     border: 5px solid #ccc;
     border-radius: 10px;
 }
@@ -105,28 +123,30 @@ label {
     transition: all 0.3s;
 }
 
-img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+.nav-img{
+    /* Add your profile image styles here */
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
     object-fit: cover;
-    margin: 1%;
-    padding: 2%;
+    background-color: #333;
 }
 
-nav {
-    background-color: #333;
-    padding: 0;
-    align-items: center;
-    margin-right: 0;
-    transition: transform 0.2s ease;
-    vertical-align: middle;
-    border: none;
+
+.left-img{
+    transition: transform all 0.2s ease;
+    /* vertical-align: middle; */
+    /* border: none; */
     overflow: hidden;
     position: absolute;
-    right: 0;
-    top: 0;
+    left: 50px;
+    top: 80px; /* center: 50% */
+    padding: 5px;
+    margin: 2%;
+    text-align: justify;
+    /*padding-left: 2px; */  /* Indent bullets */
 }
+
 
 /* Class selector: applies only to elements with class="profile-description" */
 .profile-description {
@@ -138,6 +158,33 @@ nav {
     /* margin: 0 auto; */
     margin: 0;
     text-align: justify;
+}
+
+.nav-link, nav {
+    /* Add your Navigation link styles here */
+    /* color: #555; */
+    color: #333;
+    text-decoration: none;
+    /* text-align: justify; */
+    /* text-spacing-trim: normal; */
+    /* align-items: justify; */
+    /* margin-left: 50; */
+    position:var(--base-size);
+    left: 10px;
+    bottom: 10px;
+}
+
+.about-link {
+    font-weight: bold;
+    font-size: 18px;
+    /* max-width: 700px; */
+    margin: -50%;
+    border: 500%; /* none */
+}
+
+.icon-user {
+    /* Add your icon styles here */
+    margin-left: 5px;
 }
 
 
