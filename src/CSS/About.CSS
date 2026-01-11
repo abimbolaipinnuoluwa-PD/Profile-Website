@@ -68,17 +68,17 @@ a{
     justify-content: justify;
 }
 
-input {
+/* input {
     width: 0%;
     padding: 4px;
     border: 1px solid #ccc;
     border-radius: 4px;
-}
+} */
 
 label {
     position: absolute;
     top: auto;
-    left: 4px;
+    left: 40px;
     transition: all 0.3s;
 }
 
