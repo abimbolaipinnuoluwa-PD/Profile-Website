@@ -1,0 +1,179 @@
+*{
+    background-color: plum;
+    color: black;
+    text-align: justify;
+    font: 20;
+    font-style: normal;
+    line-height: 1.6;
+    font-family: Garamond,Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+form{
+    padding: 2px;
+    margin: 1%;
+}
+
+h1, h2, h4 {
+    text-align: center;
+    font-family: Garamond,Georgia, 'Times New Roman', 'Arial-Black', Times, sans-serif;
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+
+}
+
+h3 {
+    text-align: left;
+    font-family: Garamond,Georgia, 'Times New Roman', 'Arial-Black', Times, sans-serif;
+    margin: 10px;
+    margin-top: 0.75rem;
+    margin-bottom: 1%;
+    
+}
+    
+p{
+    margin: 5px;
+    padding: 0px;
+    text-align: justify;
+}
+
+/* Class selector: applies only to elements with class="profile-description" */
+.profile-description {
+    color: #000ff0; /* vanillandblue, #000090 */
+    font-weight: bold;
+    font-size: 18px;
+    max-width: 500px;
+    margin: 10px;
+    text-align: justify;
+}
+
+ul{
+    list-style: none;
+}
+
+ol{
+    list-style: none;
+}
+
+ol, img {
+    display: block;
+    color: yellow;
+    justify-content: justify;
+    margin: 2px;
+}
+
+
+
+@media (max-width: 600px) {
+    .main-big-picture {
+    /* Add your profile image styles here */
+    max-width: 200px;
+    width: 50px;
+    height: auto;
+    border-radius:5%;
+    }
+
+   a, .main-big-picture {
+        display: block;
+        color: yellow;
+    }
+}
+
+img .main-big-picture {
+    width: 30px;
+    height: 15px;
+    border-radius: 50%px;
+    display: block;
+    padding: -1%;
+    margin: 30px;
+}
+
+img {
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+    padding: -1%;
+    margin: 3px;
+}
+
+img .nav-link {
+    width: 1px;
+    height: 0px;
+    border-radius: 5px;
+    display: flex;
+}
+
+
+a{
+    display: flex;
+    color: yellow; 
+    justify-content: justify;
+    margin: 1px;
+}
+
+a, .main-big-picture{
+    display: block;
+    color: yellow;
+    justify-content: justify;
+    margin: 20px;
+}
+
+a, .nav-link{
+    display: flex;
+    color: yellow; 
+    justify-content: justify;
+    margin: 2%;
+}
+.nav-link {
+    /* Add your Navigation link styles here */
+    margin: 5px;
+    border: 5%; /* none */
+    border-radius: 2px; /* none */
+    
+}
+
+/* input {
+    max-width: 600px;
+    width: 20%;
+    padding: 5px;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+} */
+
+/* label {
+    position: absolute;
+    top: auto;
+    transition: all 0.3s;
+} */
+
+/* Compact internet/social icon with right-aligned link */
+/* .icon-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    position: absolute;
+    right: 2px;
+    top: 2%;
+    color: #fff;
+}
+
+.icon-link img,
+.icon-link .icon {
+    width: 8px;
+    height: 8px;
+    max-width: 8px;
+    max-height: 8px;
+    object-fit: contain;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon-link a,
+.icon-link > a {
+    margin-left: 2px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2px;
+    line-height: 1;
+} */
