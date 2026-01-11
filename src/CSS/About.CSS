@@ -1,11 +1,11 @@
 /* cssCopy codeinput::placeholder */
-input::placeholder{
-  color: #999; /* Light gray color */
-  font-style: italic; /* Italic style/Italicized text */
-  text-decoration-color: yellowgreen; /* #555 - Darker gray for better visibility */
-  opacity: 1; /* Full opacity */
-  max-width: 600px; /* Limit the width of the placeholder text */
-}
+/* input::placeholder{ */
+  /* color: #999; Light gray color */
+  /* font-style: italic; Italic style/Italicized text */
+  /* text-decoration-color: yellowgreen; #555 - Darker gray for better visibility */
+  /* opacity: 1; Full opacity */
+  /* max-width: 600px; Limit the width of the placeholder text */
+/* } */
 
 *{
     background-color: plum;
@@ -33,7 +33,7 @@ body {
 }
 
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
     text-align: center;
     font-family: Garamond,Georgia, 'Times New Roman', 'Arial-Black', 'Gadget', Times, serif, Helvetica, sans-serif;
     margin-top: 0.75rem;
@@ -68,15 +68,7 @@ a{
     justify-content: justify;
 }
 
-/* input {
-    width: 0%;
-    padding: 4px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-} */
-
 label {
-    position: absolute;
     top: auto;
     left: 40px;
     transition: all 0.3s;
@@ -84,23 +76,21 @@ label {
 
 /* Class selector: applies only to elements with class="about-me-description" */
 .about-me-description {
-    /* color: #555; */
     color: darkblue;
     font-weight: bold;
     font-size: 18px;
     max-width: 700px;
     margin: 0;
-    /* margin: 0; */
     text-align: justify;
 }
 
-/* .navbar { */
+.navbar {
     /* color: #555; */
-    /* color: green;
+    color: green;
     font-weight: bold;
     font-size: 18px;
     max-width: 700px;
-    margin: 0; */
+    margin: 0;
     /* margin: auto 0; */
-    /* text-align: justify;
-} */
+    /* text-align: justify; */
+}
