@@ -36,6 +36,7 @@ p{
     margin: 5px;
     padding: 0px;
     text-align: justify;
+    color: brown;
 }
 
 /* Class selector: applies only to elements with class="profile-description" */
@@ -177,3 +178,23 @@ a, .nav-link{
     font-size: 2px;
     line-height: 1;
 } */
+
+span{
+    color: blueviolet;
+}
+
+/* p{
+    color: brown;
+} */
+
+.hannah {
+    color: brown;
+}
+
+#hannah {
+    color: beige;
+}
+
+.span {
+    color: greenyellow;
+}

@@ -13,25 +13,28 @@
     </head>
     <body>
         <!-- Element selector example: h2 -->
-        <h2>My Personal Information</h2>
+        <h2>My <span>Personal</span> Information</h2>
         <h3>Profile <Picture>Picture</Picture></h3>
         <!-- <a href="/src/Assets/Abimbola Ebenezer Media.jpg"target="_blank"> -->
         <a class="@Media main-big-picture" href="/src/Assets/Abimbola Ebenezer Media.jpg">
             <!-- <img class="nav-img bottom-img" src="src/Assets/Abimbola Ebenezer Media.jpg" -->
             <img class="@Media main-big-picture" src="src/Assets/Abimbola Ebenezer Media.jpg"
                 alt="Abimbola Eben's Profile Pic">
+                <!-- <span>
+                    Profile Picture
+                </span> -->
             </img>
         </a>
 
         <!-- Class selector example: .profile-description -->
         <p class="profile-description">
             Hello, World! <br>
-            Welcome to my Profile Website Project. <br>
+            <span>Welcome to my Profile Website Project.</span> <br>
             This is the main landing page/homepage. <br> 
             It contains two sub-pages with brief Information
             that a user share for others to know about me,
             and also get to know each other better. <br>
-            Click the link below to navigate to the next page.
+            <span class="span">Kindly click the link below to navigate to the next page.</span> 
             <form>
                 <ol>
                     <!-- <a class="icon-user" href="/src/Pages/personal-details.html"> -->
@@ -57,8 +60,28 @@
             </form>
         </p>
 
-        <!-- <div>Hello</div>
-        <span></span> -->
+        <h5>Example on span, div, id and class selectors practice</h5>
+        <span>
+            Hi, I am Abimbola.
+        </span>
+        <span>
+            Hannah is beautiful.
+        </span>
+
+        <div>
+            <!-- div is used for responsiveness of object/element. 
+                It follow the flow of written items, icons, structures etc -->
+            Hello
+        </div>
+        <span>
+            <!-- span is an inline property used to 
+                ensure continuity of written words 
+                or objects being placed -->
+            Hi
+        </span>
+
+        <p id="hannah"> My name is Abimbola</p>
+        <p class="hannah"> My name is Hannah</p>
 
     </body>
 </html>

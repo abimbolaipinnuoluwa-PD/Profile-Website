@@ -1,3 +1,14 @@
+/* my added about FitApp style */
+/* style.css */
+.onboarding{
+    text-align: center;
+    padding: 20px;
+}
+a .about{
+    color: #0078d4;
+    text-decoration: none;
+}
+
 /* cssCopy codeinput::placeholder */
 /* input::placeholder{ */
   /* color: #999; Light gray color */

@@ -1,0 +1,167 @@
+<!-- FitnessApp dashboard index.html -->
+<!-- In a login.html -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FitnessApp Registration Page</title>
+            
+        <link rel="stylesheet" href="/src/CSS/FitAppLoginStyle.CSS">
+    </head>
+    <body>
+        <nav>
+            <div class="login-logo">
+                <img src="/src/Assets/icon-signup.png" alt="Register to Login">
+                <!-- <h1><Menu>FitApp<span>Menu</span></Menu></h1> -->
+                <h1>FitApp <br> <span>login Form</span></h1>
+            </div>
+                <ul>
+                    <li> <a href="/src/Assets/icon-signup.png">
+                        <!-- <img src="/src/Assets/icon-signup.png" alt="signup"> -->
+                        Signup</a></li> 
+                    
+                </ul>
+                <button onclick="showTour()">Take Tour</button>
+                <button onclick="showLogin()">Login</button>
+                <!-- <button onclick="showTour()">Take Tour</button> -->
+        </nav>
+        <section class="hero-section">
+            <h1><Menu>Welcome!</Menu></h1>
+            <p>
+                To access this beautiful app experience by registering <br>
+            </p>
+            <button>Sign up</button>
+        </section>
+        <section class="menu-section">
+            <h1>Login Form Details</h1>
+            <div class="menu">
+                <div class="menu-item">
+                    <img src="/src/Assets/icon-signup.png"
+                    alt="image of login-background">
+                    <!-- <img src="https://img1.wsimg.com/isteam/ip/8fa9801a-9459-437f-ac41-7e7e90b4e436/Making%20Egusi%20Soup%20Recipe%20(with%20Assorted%20Meat)%20.jpg"
+                        alt="and image of food in a plate with spoon and fork"> -->
+                    <div class="separated-content">
+                        <h1>Fill the Login Form Details</h1>
+                        <p>
+                            This  allow access to health purposes, relaxation and work-life balance methods.
+                        </p>
+                        <p>
+                            <form id="loginForm">
+                                <label>
+                                <!-- Full Name: <label for="Full Name">(Enter your Full Name):</label><br>
+                                    <textarea <input type="text" id="Full Name"><br>
+                                        <input type="submit"> -->
+
+                                    Full Name: 
+                                    <input type="text" id="Full Name"><br><br>
+                                    
+                                    Email: 
+                                    <input type="email" email="Email Address"><br><br>
+                                    
+                                    Password:
+                                    <input type="password" password="password"><br><br>
+                                    
+                                    Contact Address:
+                                    <!-- View or Call Contact -->
+                                    <!-- <input type="number" id="Phone Number" -->
+                                    <input type="tel" id="Phone Number" id="Phone Number" placeholder="with its country code: +234-123-456-7890..."
+                                    <textarea pattern="[text]{+}[0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{4}"></textarea> <br>
+                                    <small>Format: +234-123-456-7890</small><br><br>
+                                    
+                                    Age:
+                                    <input type="number" id="Age"><br><br>
+                                        
+                                    Gender:
+                                    <select><option> </option><option>Male</option><option>Female</option><option>Other</option><select><br><br>
+                                    <!-- <input type="Gender" sex="Gender"><br> -->
+                                        
+                                    Date of Birth:
+                                    <input type="date" id="DOB"><br><br>
+                                        
+                                    Location:
+                                    <input type="text" text="Location"><br><br>
+                                        
+                                    Preference:
+                                    <input type="text" text="Preference"><br><br>
+                                        
+                                    Promo Code:
+                                    <input type="text" text="promo code"><br><br>
+                                        
+                                    Comment:
+                                    <input type="text" text="Comment"><br><br>
+                                        <input type="submit">                              
+                                        <button type="submit">Submit</button>
+                                        <button type="button">Save</button>
+                                        <button type="reset">Reset</button>
+                                    
+                                    <!-- Full Name: <br>
+                                    <label for="Full Name">(Enter your Full Name):</label><br>
+                                    <input type="text" id="Full Name"><br>
+                                        <input type="submit"><br>
+                                    Email: <br>
+                                    <label for="Email Address">(Enter your Email Address):</label><br>
+                                    <input type="email" email="Email Address"><br>
+                                        <input type="submit"><br>
+                                    Password: <br>
+                                    <label for="password">(Enter your password):</label><br>
+                                    <input type="password" password="password"><br>
+                                        <input type="submit"><br> -->
+
+                                    <!-- Contact Address: <br> -->
+                                    <!-- View or Call Contact -->
+                                    <!-- <label for="Phone Number">(Call this Phone Number):</label><br> -->
+                                    
+                                    <!-- <input type="number" id="Phone Number" -->
+                                    
+                                    <!-- <input type="tel" id="Phone Number" id="Phone Number" placeholder="with its country code: +234-123-456-7890..."
+                                    <textarea pattern="[text]{+}[0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{4}"></textarea> <br>
+                                    <small>Format: +234-123-456-7890</small>
+                                        <input type="submit"><br>
+                                    Age: <br>
+                                    <label for="Age">(Enter your Age):</label><br>
+                                    <input type="number" id="Age"><br>
+                                        <input type="submit"><br>
+                                    Gender: <br>
+                                    <label for="Gender">(Enter your Sex/Gender):</label><br>
+                                    <select><option> </option><option>Male</option><option>Female</option><option>Other</option><select><br> -->
+                                    <!-- <textarea <input type="Gender" sex="Gender"><br> -->
+                                        
+                                        <!-- <input type="submit"><br>
+                                    Date of Birth: <br>
+                                    <label for="DOB">(Enter your DOB):</label><br>
+                                    <input type="date" id="DOB"><br>
+                                        <input type="submit"><br>
+                                    Location: <br>
+                                    <label for="Location">(Enter your Address/Location):</label><br>
+                                    <input type="text" text="Location"><br>
+                                        <input type="submit"><br>
+                                    Preference: <br>
+                                    <label for="Preference">(Enter your Preference):</label><br>
+                                    <input type="text" text="Preference"><br>
+                                        <input type="submit"><br>
+                                    Promo Code: <br>
+                                    <label for="promo code">(Enter your password):</label><br>
+                                    <input type="text" text="promo code"><br>
+                                        <input type="submit"><br>
+                                    Comment: <br>
+                                    <label for="Comment">(Kindly give your feedback/review):</label><br>
+                                    <input type="text" text="Comment"><br>
+                                        <input type="submit"><br>                                
+                                        <button type="submit">Submit</button>
+                                        <button type="button">Save</button>
+                                        <button type="reset">Reset</button> -->
+
+                                </label>
+                            </form>
+                            <script> src="script.js"</script>
+                        </p>
+                        <button>Register/Signup here</button>
+                        <button>Already have an account, then login here</button>
+                        <button>Forgot your Password? Then, click here to create a new password</button>
+                    </div>
+                </div>        
+            </div> 
+        </section>
+    </body>
+</html>
